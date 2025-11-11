@@ -1,0 +1,24 @@
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Input: operator
+print("Select operation: +, -, *, /")
+operator = input("Enter operator: ")
+
+# Perform calculation
+if operator == '+':
+    result = num1 + num2
+elif operator == '-':
+    result = num1 - num2
+elif operator == '*':
+    result = num1 * num2
+elif operator == '/':
+    if num2 != 0:
+        result = num1 / num2
+    else:
+        result = "Error: Division by zero"
+else:
+    result = "Invalid operator"
+
+# Output the result
+print("Result:", result)
