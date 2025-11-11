@@ -20,5 +20,4 @@ elif operator == '/':
 else:
     result = "Invalid operator"
 
-# Output the result
-print("Result:", result)
+print("Result:", result)   # Output of the result
